@@ -24,6 +24,9 @@ public class buttomCtrl : MonoBehaviour
         forAx = X;
         forAy = Y;
 
+        MineDif = 3;
+        MineX = 10;
+        MineY = 15;
     }
 
     static public int dif = 3;//地雷%數

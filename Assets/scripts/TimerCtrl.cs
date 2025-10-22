@@ -36,13 +36,13 @@ public class TimerCtrl : MonoBehaviour
                 }
             }
             
-            timertext.text =Mathf.Floor(tenTten).ToString()+ Mathf.Floor(tenT).ToString()+ "："+ Mathf.Floor(timeTen).ToString()+ Mathf.Floor(time).ToString();            
+            timertext.text =Mathf.Floor(tenTten).ToString()+ Mathf.Floor(tenT).ToString()+ ":"+ Mathf.Floor(timeTen).ToString()+ Mathf.Floor(time).ToString();            
         }
         
     }
     public void TimerReset()
     {
         time = 0;
-        timertext.text = Mathf.Floor(tenTten).ToString() + Mathf.Floor(tenT).ToString() + "：" + Mathf.Floor(timeTen).ToString() + Mathf.Floor(time).ToString();
+        timertext.text = Mathf.Floor(tenTten).ToString() + Mathf.Floor(tenT).ToString() + ":" + Mathf.Floor(timeTen).ToString() + Mathf.Floor(time).ToString();
     }
 }
